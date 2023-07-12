@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { AiFillMail } from "react-icons/ai";
+import { RiTempColdLine } from "react-icons/ri";
+import { FaBitcoin } from "react-icons/fa";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Demo</h1>
+      <AiFillMail />
+      <RiTempColdLine />
+      <FaBitcoin className='demo' />
     </div>
   );
 }
